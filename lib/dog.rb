@@ -13,5 +13,9 @@ class Dog
     @@all.clear
   end
 
+  def self.all
+    @@all.each {|name| return name}
+  end
+
 
 end
